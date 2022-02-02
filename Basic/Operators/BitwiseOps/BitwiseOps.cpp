@@ -40,10 +40,11 @@ int main(int argc, char const *argv[])
 		0 ^ 1 = 1			 a ^ b ^ a = b  (because a^a = 0)
 		1 ^ 1 = 0
 	*/
-
+cout << "-------------------------"<<endl;
 	cout << (5^0) << endl;
 	cout << (2^3^2) << endl;
 	cout << (2^5^2^3) << endl;
+	cout << (17^2) << endl;
 
 	// << left shift --> shifts bits towards left and add 0 in the end and removes first bit
 	/*  
